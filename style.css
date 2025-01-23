@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+}
+
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #191919;
+}
+.path{
+    width: 250px;
+    height: 400px;
+    background-color: #4F77FF;
+    border-radius: 150px 150px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.stairs{
+    width: 80%;
+    height: 55px;
+    background-color: #191919;
+}
+.stairs:nth-child(1){
+    width: 20%;
+}
+.stairs:nth-child(2){
+    width: 40%;
+}
+.stairs:nth-child(3){
+    width: 60%;
+}
+
+
+
+.main:nth-child(2){
+    background-color: #293462;
+    border-bottom: 1px solid #eee;
+}
+.circle{
+    width: 400px;
+    height: 400px;
+    background-color: #FFF1C1;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.mountain{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    bottom: -100px;
+    right: -40px;
+    transform: rotate(45deg);
+    background-color: #FE5F55;
+}
+.mountain:nth-child(2){
+    right: 150px;
+    bottom: -220px;
+}
+
+
+
+
+
+
+
+
+
+.main:nth-child(3){
+    background-color: #293462
+}
+.head{
+    width: 400px;
+    height: 400px;
+    border-radius: 190px 190px 70px 70px;
+    background-color: #FE5F55;
+    position: relative;
+    overflow: hidden;
+}
+.hair{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    background-color: #FFF1C1;
+    border-radius: 50%;
+    top: -80px;
+    left: 30px; 
+}
+.hair:nth-child(2){
+    top: -80px;
+    left: 198px;
+}
+.eyer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    position: absolute;
+    top: 170px;
+    left: 200px;
+    transform: translateX(-50%);
+}
+.eyes{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #FFF1C1;
+}
+.mouth{
+    width: 70px;
+    height: 20px;
+    background-color:#FFF1C1;
+    position: absolute;
+    top: 320px;
+    left: 200px;
+    transform: translateX(-50%);
+    border-radius: 10px;
+} 
+
+
+
+
+
+.main:nth-child(4){
+    background-color: #6592CF;
+    border-bottom: 1px solid #eee;
+}
+.main__square{
+    width: 400px;
+    height: 400px;
+    background-color: #243D83;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.big-square{
+    width: 250px;
+    height: 250px;
+    background-color: #6592CF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(20deg);
+}
+.small-square{
+    width: 120px;
+    height: 120px;
+    background-color: #243D83;
+    transform: rotate(10deg);
+}
+
+
+
+
+
+
+.main:nth-child(5){
+    background-color: #6592CF;
+}
+.rectangle{
+    width: 400px;
+    height: 200px;
+    background-color: #243D83;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-circle{
+    width: 320px;
+    height: 320px;
+    background: #6592CF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.big-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #243D83;
+    display: flex;
+    align-items: center;
+    justify-content: inherit;
+}
+.small-circle{
+    width: 65px;
+    height: 65px;
+    background: #EEB850;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+.background{
+    width: 300px;
+    height: 400px;
+    border-radius: 145px 145px 30px 30px;
+    background-color: #F2AD43;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.sun{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #FFF58F;
+    z-index: 1;
+    margin-top: 60px;
+}
+.round1{
+    width: 350px;
+    height: 350px;
+    background-color: #E08027;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -150px;
+    left: -170px;
+    z-index: 2;
+}
+.round2{
+    width: 350px;
+    height: 350px;
+    background-color: #824B20;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -150px;
+    right: -170px;
+    z-index: 3;
+}
